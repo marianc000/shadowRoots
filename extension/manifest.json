@@ -1,0 +1,14 @@
+{
+  "name": "Shadow root",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Shadow roots",
+  "background": {
+    "service_worker": "sw.js"
+  },
+  "permissions": ["scripting", "activeTab"],
+  "action": {},
+  "icons": {
+    "128": "icon.png"
+  } 
+}
